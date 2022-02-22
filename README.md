@@ -1,10 +1,13 @@
 # CS308-Image-Colorization
+
+## Introduction
 Image colorization assigns a color to each pixel of a target grayscale image. It is a classical
 problem in computer visual, which need to use a grayscale photograph as input, and expected
 output a a plausible color version of the photograph. This problem is somewhat challenging
 because it is multimodal -- a single grayscale image may correspond to many reasonable color
 images.
 
+## Methods
 Generative adversarial networks (GANs) is a type of generative model. A GAN is composed of two
 smaller networks called the generator and discriminator. The generator’s task is to produce
 results that are indistinguishable from real data. The discriminator’s task is to classify whether a
